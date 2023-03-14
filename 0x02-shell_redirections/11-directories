@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v "bin" /etc/password | wc -l
+find . -type d ! -path . -print | wc -l
